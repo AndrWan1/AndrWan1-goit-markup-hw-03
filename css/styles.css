@@ -1,3 +1,9 @@
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -195,6 +201,7 @@ margin-bottom: 8px;
 }
 .footer{
     background-color:#2e2f42;
+    padding: 100px 0;
 }
 .footer-logo{
     font-family: "Raleway", sans-serif;
@@ -204,6 +211,8 @@ margin-bottom: 8px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .span-footer-logo{
     color: #f4f4fd;
@@ -212,6 +221,7 @@ margin-bottom: 8px;
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 img{
     display: block;
