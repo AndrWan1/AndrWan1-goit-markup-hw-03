@@ -107,6 +107,8 @@ margin-bottom: 8px;
 .list-advantages{
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding-left: 0;
 }
 .point-list-advantages{
     width:calc((100% - 72px) / 4);
