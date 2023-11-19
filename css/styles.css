@@ -11,6 +11,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 .logo-studio{
    color:#2e2f42;
@@ -31,8 +32,11 @@ body{
 }
 .mail-tel{
     font-style: normal;
+   
+}
+.address-title{
     display: flex;
-    gap: 40px;
+        gap: 40px;
 }
 .mail{
     line-height: 1.5;
