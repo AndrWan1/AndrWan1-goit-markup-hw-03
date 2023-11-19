@@ -93,11 +93,20 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42;
+padding: 120px 0;
+margin-bottom: 8px;
 }
 .text-advantages{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.list-advantages{
+    display: flex;
+    gap: 24px;
+}
+.point-list-advantages{
+    width: calc((100% - 72px) / 4);
 }
 .section-our-team{
     background-color: #F4F4FD;
