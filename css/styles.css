@@ -9,6 +9,13 @@ body{
     color: #434455;
     background-color:#FFFFFF;
 }
+h1,
+h2,
+h3,
+h4,
+p{ 
+margin: 0;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -28,6 +35,10 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: block;
 
 }
 .link-studio:hover {
@@ -48,6 +59,9 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 24px;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 .mail:hover{
    color:#404bbf;
@@ -66,6 +80,8 @@ body{
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button{
     background-color: #4D5AE5;
@@ -82,6 +98,10 @@ body{
     background-color:#4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    
 
 }
 .button:hover{
@@ -167,7 +187,15 @@ margin-bottom: 8px;
     padding-bottom: 120px;
 }
 .our-portfolio-title{
-    margin-bottom: 72px;
+color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 .our-portfolio-list{
     display: flex;
@@ -241,6 +269,7 @@ display: flex;
 .navigation{
     display: flex;
     align-items: center;
+    margin-right: auto;
 
 }
 .menu{
