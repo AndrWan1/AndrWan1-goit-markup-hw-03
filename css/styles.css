@@ -97,7 +97,6 @@ margin: 0;
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color:#4d5ae5;
     border-radius: 4px;
     cursor: pointer;
     margin-left: auto;
@@ -216,7 +215,6 @@ color: var(--NAVY-BLUE, #2E2F42);
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
 .banking-app{
     font-weight: 500;
     font-size: 20px;
